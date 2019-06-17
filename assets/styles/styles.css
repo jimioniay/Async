@@ -1,4 +1,8 @@
 .padding {
-    padding: 4rem;
-    margin: 4rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.author {
+    text-transform: capitalize;
 }
