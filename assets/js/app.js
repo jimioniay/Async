@@ -11,6 +11,9 @@ const loadData = function (e) {
                 http status: ${this.status}
                 http message: ${this.responseText}
             `);
+            const fileText = (this.responseText);
+            console.log(fileText);
+            document.querySelector("text-field").textContent = fileText;
         }
         else {
             console.log(`
